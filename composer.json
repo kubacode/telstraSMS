@@ -1,7 +1,6 @@
 {
   "name": "kubacode/telstrasms",
   "description": "telstraSMS is a PHP Implementation of the Telstra SMS API",
-  "minimum-stability": "stable",
   "license": "MIT",
   "authors": [
     {
