@@ -15,7 +15,7 @@ class SMSServiceProvider extends ServiceProvider
             __DIR__.'/config/sms.php', 'sms'
         );
 
-        $this->app->bind('sms', function($app) {
+        $this->app->bind('SMS', function($app) {
             return new telstraSMS(config('sms.apiKey'), config('sms.apiSecret'));
         });
     }
