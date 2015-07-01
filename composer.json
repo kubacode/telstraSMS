@@ -10,5 +10,10 @@
   ],
   "require": {
     "guzzlehttp/guzzle": "6.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "kubacode\\telstraSMS\\": "src/"
+    }
   }
 }
