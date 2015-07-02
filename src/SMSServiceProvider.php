@@ -1,6 +1,6 @@
 <?php
 
-namespace kubacode\telstraSMS;
+namespace kubacode;
 
 use Illuminate\Support\ServiceProvider;
 
