@@ -1,6 +1,6 @@
 # telstraSMS
 
-telstraSMS is a PHP package for the Telstra SMS API.
+telstraSMS is a PHP package for the [Telstra SMS API](https://dev.telstra.com/content/sms-api-0).
 
 The author is not affiliated with Telstra and Telstra is not involved in the development of this package in any way.
 
