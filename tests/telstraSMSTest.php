@@ -1,5 +1,5 @@
 <?php
-
+require dirname(__FILE__) . '/../Vendor/autoload.php';
 class telstraSMSTest extends PHPUnit_Framework_TestCase
 {
 
