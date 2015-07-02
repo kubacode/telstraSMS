@@ -2,6 +2,8 @@
 
 namespace kubacode\telstraSMS;
 
+use kubacode\telstraSMS;
+
 use Illuminate\Support\ServiceProvider;
 
 
