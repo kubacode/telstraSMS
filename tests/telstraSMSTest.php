@@ -1,5 +1,5 @@
 <?php
-require 'Vendor/autoload.php';
+require '../Vendor/autoload.php';
 class telstraSMSTest extends PHPUnit_Framework_TestCase
 {
 
