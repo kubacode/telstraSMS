@@ -1,6 +1,6 @@
 <?php
 
-namespace kubacode;
+namespace kubacode\telstraSMS;
 
 use GuzzleHttp\Client;
 
