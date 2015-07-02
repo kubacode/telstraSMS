@@ -47,7 +47,7 @@ $clientSecret = 'clientSecret';
 $to = '0400000000';
 $body = 'SMS Message'
 $message = new kubacode\telstraSMS\telstraSMS($clientKey, $clientSecret);
-$message->send($td, $body);
+$message->send($to, $body);
 ```
 
 ## Laravel Usage
