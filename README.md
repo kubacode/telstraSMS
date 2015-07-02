@@ -1,6 +1,6 @@
 # telstraSMS
 
-[![Build Status](https://travis-ci.org/kubacode/telstraSMS.svg?branch=0.0.2)](https://travis-ci.org/kubacode/telstraSMS)
+[![Build Status](https://travis-ci.org/kubacode/telstraSMS.svg?branch=0.0.1)](https://travis-ci.org/kubacode/telstraSMS)
 
 telstraSMS is a PHP package for the [Telstra SMS API](https://dev.telstra.com/content/sms-api-0).
 
