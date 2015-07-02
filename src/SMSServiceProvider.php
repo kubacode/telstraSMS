@@ -1,6 +1,6 @@
 <?php
 
-namespace kubacode\telstraSMS;
+namespace kubacode;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -16,7 +16,7 @@ class SMSServiceProvider extends ServiceProvider
         );
 
         $this->app->bind('SMS', function($app) {
-            return new \kubacode\telstraSMS(config('sms.apiKey'), config('sms.apiSecret'));
+            return new telstraSMS(config('sms.apiKey'), config('sms.apiSecret'));
         });
     }
 

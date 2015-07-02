@@ -46,7 +46,7 @@ $clientKey = 'clientKey';
 $clientSecret = 'clientSecret';
 $to = '0400000000';
 $body = 'SMS Message'
-$message = new kubacode\telstraSMS($clientKey, $clientSecret);
+$message = new kubacode\telstraSMS\telstraSMS($clientKey, $clientSecret);
 $message->send($td, $body);
 ```
 
