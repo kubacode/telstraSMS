@@ -16,7 +16,7 @@ class SMSServiceProvider extends ServiceProvider
         );
 
         $this->app->bind('SMS', function($app) {
-            return new kubacode\telstraSMS(config('sms.apiKey'), config('sms.apiSecret'));
+            return new \kubacode\telstraSMS(config('sms.apiKey'), config('sms.apiSecret'));
         });
     }
 
