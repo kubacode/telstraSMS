@@ -3,5 +3,6 @@ php:
   - 5.5
   - 5.4
   - hhvm
-composer install
-script: phpunit tests/test.php
+script:
+  - composer install
+  - phpunit tests/test.php
