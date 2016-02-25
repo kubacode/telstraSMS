@@ -9,8 +9,8 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "6.0.1",
-    "phpunit/phpunit": "4.8.x-dev"
+    "guzzlehttp/guzzle": "6.1.*",
+    "phpunit/phpunit": "5.2.*"
   },
   "autoload": {
     "psr-4": {
