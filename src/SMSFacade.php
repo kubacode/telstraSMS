@@ -1,4 +1,5 @@
 <?php
+
 namespace kubacode\telstraSMS;
 
 use Illuminate\Support\Facades\Facade;

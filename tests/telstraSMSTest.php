@@ -2,7 +2,6 @@
 
 class telstraSMSTest extends PHPUnit_Framework_TestCase
 {
-
     public function testAttribues()
     {
         $this->assertClassHasAttribute('client', 'kubacode\telstraSMS\telstraSMS');
@@ -13,9 +12,9 @@ class telstraSMSTest extends PHPUnit_Framework_TestCase
 
     public function testSend()
     {
-        $message = new kubacode\telstraSMS\telstraSMS(getenv('SMS_API_KEY'),getenv('SMS_API_SECRET'));
+        $message = new kubacode\telstraSMS\telstraSMS(getenv('SMS_API_KEY'), getenv('SMS_API_SECRET'));
         $sentMessage = $message->send(getenv('TEST_MOBILE_NUMBER'), 'test');
-        $this->assertObjectHasAttribute('messageId',$sentMessage);
+        $this->assertObjectHasAttribute('messageId', $sentMessage);
 
         $messageData = new stdClass();
         $messageData->message = $message;
@@ -33,7 +32,7 @@ class telstraSMSTest extends PHPUnit_Framework_TestCase
         $sentMessage = $messageData->sentMessage;
         $messageStatus = $message->getStatus($sentMessage->messageId);
 
-        $this->assertObjectHasAttribute('sentTimestamp',$messageStatus);
+        $this->assertObjectHasAttribute('sentTimestamp', $messageStatus);
     }
 
     /**
@@ -45,6 +44,6 @@ class telstraSMSTest extends PHPUnit_Framework_TestCase
         $sentMessage = $messageData->sentMessage;
         $messageResponse = $message->getResponse($sentMessage->messageId)[0];
 
-        $this->assertObjectHasAttribute('from',$messageResponse);
+        $this->assertObjectHasAttribute('from', $messageResponse);
     }
 }
